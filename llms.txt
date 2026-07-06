@@ -1,0 +1,23 @@
+# IBIGENT Studio — Developer Documentation
+
+> Official docs for connecting AI tools (Claude Code, Codex CLI, Cursor, Antigravity) to IBIGENT Studio over MCP. Documentation only — no source code.
+
+## Start here
+- [README (EN)](README.md)
+- [README (KO)](README_ko.md)
+
+## Guides (EN)
+- [Getting Started](docs/en/getting-started.md)
+- [MCP Connection](docs/en/mcp.md)
+- [Claude Code](docs/en/claude-code.md)
+- [Codex CLI](docs/en/codex.md)
+- [Cursor](docs/en/cursor.md)
+- [Antigravity](docs/en/antigravity.md)
+- [Examples](docs/en/examples.md)
+- [FAQ](docs/en/faq.md)
+- [Troubleshooting](docs/en/troubleshooting.md)
+
+## Official
+- Website: https://www.ibigent.com
+- Online docs: https://www.ibigent.com/docs/ibigent-studio/
+- MCP server URL pattern: https://mcp.ibigent.com/mcp/<YOUR_KEY>

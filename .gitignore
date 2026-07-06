@@ -1,0 +1,12 @@
+# Safety net — never commit secrets to this docs repo
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+secrets.*
+*token*.txt
+id_ed25519
+id_rsa
+.DS_Store
+Thumbs.db
