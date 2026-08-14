@@ -7,7 +7,7 @@
 In the meantime, if you use a VS Code extension that supports connecting to a custom **HTTP MCP server**, you can point it at the IBIGENT Studio server URL:
 
 ```
-https://mcp.ibigent.com/mcp/<YOUR_KEY>
+https://mcp.ibigent.com/mcp
 ```
 
 For tools with confirmed instructions today, see [Claude Code](claude-code.md), [Codex CLI](codex.md), [Cursor](cursor.md), or [Antigravity](antigravity.md).

@@ -7,7 +7,7 @@
 그 전에도, 커스텀 **HTTP MCP 서버** 연결을 지원하는 VS Code 확장을 쓴다면 아래 서버 주소를 사용할 수 있습니다:
 
 ```
-https://mcp.ibigent.com/mcp/<내_키>
+https://mcp.ibigent.com/mcp
 ```
 
 현재 설정이 확정된 도구는 [Claude Code](claude-code.md), [Codex CLI](codex.md), [Cursor](cursor.md), [Antigravity](antigravity.md) 를 참고하세요.

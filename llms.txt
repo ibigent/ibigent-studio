@@ -20,4 +20,4 @@
 ## Official
 - Website: https://www.ibigent.com
 - Online docs: https://www.ibigent.com/docs/ibigent-studio/
-- MCP server URL pattern: https://mcp.ibigent.com/mcp/<YOUR_KEY>
+- MCP server URL pattern: https://mcp.ibigent.com/mcp

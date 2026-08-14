@@ -29,38 +29,47 @@ IBIGENT Studio는 실시간 웹 편집기입니다. 구독(별도 설치·API �
 ## 2. 특징
 - **AI가 만든 HTML을 편집 화면으로.** MCP 연결된 AI 도구에게 HTML을 만들게 해 IBIGENT Studio로 받습니다.
 - **원하는 위치에 정확히.** 편집 화면에서 삽입 위치를 고르면 그자리에 반영됩니다.
-- **코딩·API 연결 없이.** 구독과 MCP 키만 있으면 됩니다.
+- **코딩·키 발급 없이.** 구독과 아이비전트 로그인만 있으면 됩니다.
 - **개방형 MCP** 기반으로 이미 쓰는 도구와 함께 동작합니다.
 
-## 3. 지원 AI 도구
-| 도구 | 벤더 | 가이드 |
-|------|------|--------|
-| Claude Code | Anthropic | [docs/ko/claude-code.md](docs/ko/claude-code.md) |
-| Codex CLI | OpenAI | [docs/ko/codex.md](docs/ko/codex.md) |
-| Cursor | — | [docs/ko/cursor.md](docs/ko/cursor.md) |
-| Antigravity | Google | [docs/ko/antigravity.md](docs/ko/antigravity.md) |
-| VS Code | — | [docs/ko/vscode.md](docs/ko/vscode.md) (준비 중) |
-| 모든 MCP 클라이언트 | — | [docs/ko/mcp.md](docs/ko/mcp.md) |
+## 3. 연결 방법 두 가지
+| 방법 | 어떤 사람에게 | 도구 |
+|---|---|---|
+| **방법 A. 커넥터 연결** (Custom Connector) | 터미널을 쓰지 않는 분 (권장) | Claude, ChatGPT |
+| **방법 B. 터미널 연결** (MCP server configuration) | 개발 도구를 쓰는 분 | Claude Code, Cursor, Codex, Antigravity |
 
-## 4. 빠른 시작
-1. **키 발급.** **마이페이지 > AI 연동 > 연동 키 관리** (https://www.ibigent.com/mypage/mcp-keys.html) 에서 **[키 발급]**. 키 `ibg_…` 는 발급 직후 1회만 표시 — 비밀번호처럼 보관하세요.
-2. **MCP 서버 등록** — AI 도구에 아래 주소를 넣고 `<내_키>` 를 교체:
+어느 쪽이든 **주소 등록 → 아이비전트 로그인 → [연결 허용]** 한 번이면 끝입니다. 키 발급·복사는 없습니다.
+
+## 4. 지원 AI 도구
+| 도구 | 벤더 | 연결 방법 | 가이드 |
+|------|------|------|--------|
+| Claude | Anthropic | 커넥터 | [웹 문서](https://www.ibigent.com/docs/ibigent-studio/claude-app.html) |
+| ChatGPT | OpenAI | 커넥터 | [웹 문서](https://www.ibigent.com/docs/ibigent-studio/chatgpt.html) |
+| Claude Code | Anthropic | 터미널 | [docs/ko/claude-code.md](docs/ko/claude-code.md) |
+| Codex CLI | OpenAI | 터미널 | [docs/ko/codex.md](docs/ko/codex.md) |
+| Cursor | — | 터미널 | [docs/ko/cursor.md](docs/ko/cursor.md) |
+| Antigravity | Google | 터미널 | [docs/ko/antigravity.md](docs/ko/antigravity.md) |
+| VS Code | — | 터미널 | [docs/ko/vscode.md](docs/ko/vscode.md) (준비 중) |
+| 모든 MCP 클라이언트 | — | — | [docs/ko/mcp.md](docs/ko/mcp.md) |
+
+## 5. 빠른 시작
+1. **MCP 서버 등록** — AI 도구에 아래 주소를 넣습니다(키 발급 불필요):
 
    ```
-   https://mcp.ibigent.com/mcp/<내_키>
+   https://mcp.ibigent.com/mcp
    ```
 
    예 — Claude Code:
 
    ```bash
-   claude mcp add --transport http ibigent https://mcp.ibigent.com/mcp/<내_키>
+   claude mcp add --transport http ibigent https://mcp.ibigent.com/mcp
    ```
 
 3. **AI에게 요청** — HTML을 만들어 IBIGENT Studio 편집 화면으로 보내고, 삽입 위치를 고릅니다.
 
 전체 안내: [docs/ko/시작하기.md](docs/ko/시작하기.md).
 
-## 5. 문서
+## 6. 문서
 - [시작하기](docs/ko/시작하기.md)
 - [설치방법](docs/ko/설치방법.md)
 - [MCP 연결](docs/ko/mcp.md)

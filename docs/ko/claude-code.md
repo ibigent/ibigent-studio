@@ -11,15 +11,15 @@
 
 ## 준비물
 - IBIGENT Studio 구독(활성).
-- [마이페이지 > AI 연동 > 연동 키 관리](https://www.ibigent.com/mypage/mcp-keys.html) 에서 발급받은 키 `ibg_…`. [MCP](mcp.md) 참고.
-- URL의 `<내_키>` 를 발급받은 키로 교체. **키는 비밀번호처럼 노출 금지.**
+> 키 발급은 더 이상 필요하지 않습니다. 주소를 등록하면 아이비전트 로그인 → [연결 허용] 한 번으로 연결됩니다.
+- URL의 위 주소 를 발급받은 키로 교체. **키는 비밀번호처럼 노출 금지.**
 
 ## 연결
 ### 명령어 (권장)
 터미널에 붙여넣고 실행:
 
 ```bash
-claude mcp add --transport http ibigent https://mcp.ibigent.com/mcp/<내_키>
+claude mcp add --transport http ibigent https://mcp.ibigent.com/mcp
 ```
 
 ### 설정 파일
@@ -28,7 +28,7 @@ claude mcp add --transport http ibigent https://mcp.ibigent.com/mcp/<내_키>
 ```json
 {
   "mcpServers": {
-    "ibigent": { "type": "http", "url": "https://mcp.ibigent.com/mcp/<내_키>" }
+    "ibigent": { "type": "http", "url": "https://mcp.ibigent.com/mcp" }
   }
 }
 ```

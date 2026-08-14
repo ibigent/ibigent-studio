@@ -32,35 +32,44 @@ IBIGENT Studio is a real-time web editor. You subscribe (no API keys to manage, 
 - **No coding, no API wiring.** A subscription and an MCP key are all you need.
 - **Uses the open Model Context Protocol**, so it works with the tools you already use.
 
-## 3. Supported AI tools
-| Tool | Vendor | Guide |
-|------|--------|-------|
-| Claude Code | Anthropic | [docs/en/claude-code.md](docs/en/claude-code.md) |
-| Codex CLI | OpenAI | [docs/en/codex.md](docs/en/codex.md) |
-| Cursor | — | [docs/en/cursor.md](docs/en/cursor.md) |
-| Antigravity | Google | [docs/en/antigravity.md](docs/en/antigravity.md) |
-| VS Code | — | [docs/en/vscode.md](docs/en/vscode.md) (coming soon) |
-| Any MCP client | — | [docs/en/mcp.md](docs/en/mcp.md) |
+## 3. Two ways to connect
+| Method | Who it is for | Tools |
+|---|---|---|
+| **Method A — Connector** (Custom Connector) | If you do not use a terminal (recommended) | Claude, ChatGPT |
+| **Method B — Terminal** (MCP server configuration) | If you use developer tools | Claude Code, Cursor, Codex, Antigravity |
 
-## 4. Quick Start
-1. **Get your key.** Open **My Page > AI Integration > Connection Keys** (https://www.ibigent.com/mypage/mcp-keys.html) and click **Issue Key**. Your key `ibg_…` is shown only once — treat it like a password.
-2. **Register the MCP server** in your AI tool, replacing `<YOUR_KEY>`:
+Either way: **register the URL → sign in to IBIGENT → click Allow** once. No API key to issue or copy.
+
+## 4. Supported AI tools
+| Tool | Vendor | Method | Guide |
+|------|--------|------|-------|
+| Claude | Anthropic | Connector | [Web docs](https://www.ibigent.com/docs/ibigent-studio/claude-app.html) |
+| ChatGPT | OpenAI | Connector | [Web docs](https://www.ibigent.com/docs/ibigent-studio/chatgpt.html) |
+| Claude Code | Anthropic | Terminal | [docs/en/claude-code.md](docs/en/claude-code.md) |
+| Codex CLI | OpenAI | Terminal | [docs/en/codex.md](docs/en/codex.md) |
+| Cursor | — | Terminal | [docs/en/cursor.md](docs/en/cursor.md) |
+| Antigravity | Google | Terminal | [docs/en/antigravity.md](docs/en/antigravity.md) |
+| VS Code | — | Terminal | [docs/en/vscode.md](docs/en/vscode.md) (coming soon) |
+| Any MCP client | — | — | [docs/en/mcp.md](docs/en/mcp.md) |
+
+## 5. Quick Start
+1. **Register the MCP server** in your AI tool with this address (no key needed):
 
    ```
-   https://mcp.ibigent.com/mcp/<YOUR_KEY>
+   https://mcp.ibigent.com/mcp
    ```
 
    Example — Claude Code:
 
    ```bash
-   claude mcp add --transport http ibigent https://mcp.ibigent.com/mcp/<YOUR_KEY>
+   claude mcp add --transport http ibigent https://mcp.ibigent.com/mcp
    ```
 
 3. **Ask the AI** to generate HTML and send it to your IBIGENT Studio editor, then pick where to insert it.
 
 Full walkthrough: [docs/en/getting-started.md](docs/en/getting-started.md).
 
-## 5. Documentation
+## 6. Documentation
 - [Getting Started](docs/en/getting-started.md)
 - [Installation](docs/en/installation.md)
 - [MCP Connection](docs/en/mcp.md)

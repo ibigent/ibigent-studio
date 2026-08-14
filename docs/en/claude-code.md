@@ -11,15 +11,15 @@ Register the IBIGENT Studio MCP server in Claude Code with the command below, or
 
 ## Prerequisites
 - An active IBIGENT Studio subscription.
-- Your MCP key `ibg_…` from [My Page > AI Integration > Connection Keys](https://www.ibigent.com/mypage/mcp-keys.html). See [MCP](mcp.md).
-- Replace `<YOUR_KEY>` in the URL with your issued key. **Never share the key** — treat it like a password.
+> No key is required. Once you register the URL, the IBIGENT sign-in page opens — sign in and click **Allow** once.
+- Replace the address above in the URL with your issued key. **Never share the key** — treat it like a password.
 
 ## Connect
 ### Command (recommended)
 Paste into your terminal and run:
 
 ```bash
-claude mcp add --transport http ibigent https://mcp.ibigent.com/mcp/<YOUR_KEY>
+claude mcp add --transport http ibigent https://mcp.ibigent.com/mcp
 ```
 
 ### Config file
@@ -28,7 +28,7 @@ Project scope `.mcp.json` (or `~/.claude.json` for all projects):
 ```json
 {
   "mcpServers": {
-    "ibigent": { "type": "http", "url": "https://mcp.ibigent.com/mcp/<YOUR_KEY>" }
+    "ibigent": { "type": "http", "url": "https://mcp.ibigent.com/mcp" }
   }
 }
 ```

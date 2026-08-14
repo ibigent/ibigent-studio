@@ -9,7 +9,7 @@ A hosted real-time web editor that receives AI-generated HTML over MCP and lets 
 No. It is a hosted service. You need a subscription, an MCP key, and an MCP-capable AI tool.
 
 ### Where do I get my key?
-**My Page > AI Integration > Connection Keys**: https://www.ibigent.com/mypage/mcp-keys.html
+> No key is required. Once you register the URL, the IBIGENT sign-in page opens — sign in and click **Allow** once.
 
 ### Is my key safe to share?
 No. Treat it like a password. Never commit it or post it in an issue. Reissue it if exposed.

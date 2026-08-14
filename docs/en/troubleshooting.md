@@ -15,7 +15,7 @@ The key must be `serverUrl` (not `url`/`httpUrl`). Click **Refresh** after editi
 Usually caused by an unrelated MCP/connector hanging on startup. Remove or fix other connectors, then retry.
 
 ### Authentication fails
-Your key may be wrong or revoked. Reissue it on the Connection Keys page (https://www.ibigent.com/mypage/mcp-keys.html) and update the URL.
+> No key is required. Once you register the URL, the IBIGENT sign-in page opens — sign in and click **Allow** once.
 
 ---
 **Keywords:** IBIGENT Studio troubleshooting, MCP errors, serverUrl, config.toml

@@ -11,15 +11,15 @@ Register the IBIGENT Studio MCP server in Cursor from Settings, or by editing `m
 
 ## Prerequisites
 - An active IBIGENT Studio subscription.
-- Your MCP key `ibg_…` from [My Page > AI Integration > Connection Keys](https://www.ibigent.com/mypage/mcp-keys.html). See [MCP](mcp.md).
-- Replace `<YOUR_KEY>` in the URL with your issued key. **Never share the key** — treat it like a password.
+> No key is required. Once you register the URL, the IBIGENT sign-in page opens — sign in and click **Allow** once.
+- Replace the address above in the URL with your issued key. **Never share the key** — treat it like a password.
 
 ## Connect
 ### Settings UI
 Settings (gear) > Tools & Integrations > **Add custom MCP**. Type: HTTP (URL). Name: **ibigent**. URL:
 
 ```text
-https://mcp.ibigent.com/mcp/<YOUR_KEY>
+https://mcp.ibigent.com/mcp
 ```
 
 ### Config file
@@ -28,7 +28,7 @@ https://mcp.ibigent.com/mcp/<YOUR_KEY>
 ```json
 {
   "mcpServers": {
-    "ibigent": { "url": "https://mcp.ibigent.com/mcp/<YOUR_KEY>" }
+    "ibigent": { "url": "https://mcp.ibigent.com/mcp" }
   }
 }
 ```

@@ -3,9 +3,10 @@
 This repository contains **documentation only** — no product source code, no credentials.
 
 ## Protect your MCP key
-- Your IBIGENT Studio MCP key (`ibg_…`) authenticates requests. **Treat it like a password.**
+- Requests are authenticated with **OAuth 2.1** — you sign in to IBIGENT and approve the connection once. No API key to copy or store.
+- Access tokens expire and can be revoked at any time from your IBIGENT account.
 - Never commit it, never paste it into issues or pull requests, never share it publicly.
-- If a key is exposed, revoke and reissue it on the Connection Keys page: https://www.ibigent.com/mypage/mcp-keys.html
+> No key is required. Once you register the URL, the IBIGENT sign-in page opens — sign in and click **Allow** once.
 
 ## Reporting a vulnerability
 - For issues in the IBIGENT Studio service, contact us through the help center: https://www.ibigent.com/support/

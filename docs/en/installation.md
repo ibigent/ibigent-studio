@@ -10,7 +10,7 @@ IBIGENT Studio is a **hosted service** — there is no separate program to insta
 
 ## Set up
 1. Subscribe to IBIGENT Studio on the official site.
-2. Issue your MCP key: **My Page > AI Integration > Connection Keys** (https://www.ibigent.com/mypage/mcp-keys.html).
+> No key is required. Once you register the URL, the IBIGENT sign-in page opens — sign in and click **Allow** once.
 3. Register the MCP server in your tool — see [MCP](mcp.md).
 
 ---

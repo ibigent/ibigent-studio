@@ -5,20 +5,19 @@
 IBIGENT Studio exposes a hosted **MCP (Model Context Protocol)** server. Register it in any MCP-capable AI tool to let the AI send HTML into your editor.
 
 ## Table of Contents
-- [1. Get your key](#1-get-your-key)
+- [1. Before you start](#1-before-you-start-no-key-needed)
 - [2. Server URL](#2-server-url)
 - [3. Register in your tool](#3-register-in-your-tool)
 - [Security](#security)
 
-## 1. Get your key
-1. Open **My Page > AI Integration > Connection Keys**: https://www.ibigent.com/mypage/mcp-keys.html
-2. Click **Issue Key**. A key `ibg_…` is generated and shown **once**. Store it safely.
+## 1. Before you start (no key needed)
+> No key is required. Once you register the URL, the IBIGENT sign-in page opens — sign in and click **Allow** once.
 
 ## 2. Server URL
-Register this URL in your AI tool, replacing `<YOUR_KEY>` with your issued key:
+Register this URL in your AI tool. No key is needed:
 
 ```
-https://mcp.ibigent.com/mcp/<YOUR_KEY>
+https://mcp.ibigent.com/mcp
 ```
 
 ## 3. Register in your tool

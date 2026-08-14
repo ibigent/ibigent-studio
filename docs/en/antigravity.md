@@ -11,8 +11,8 @@ Register the IBIGENT Studio MCP server in Antigravity by editing its raw MCP con
 
 ## Prerequisites
 - An active IBIGENT Studio subscription.
-- Your MCP key `ibg_…` from [My Page > AI Integration > Connection Keys](https://www.ibigent.com/mypage/mcp-keys.html). See [MCP](mcp.md).
-- Replace `<YOUR_KEY>` in the URL with your issued key. **Never share the key** — treat it like a password.
+> No key is required. Once you register the URL, the IBIGENT sign-in page opens — sign in and click **Allow** once.
+- Replace the address above in the URL with your issued key. **Never share the key** — treat it like a password.
 
 ## Connect
 ### Config file
@@ -21,7 +21,7 @@ In the agent panel: **... > MCP Servers > View raw config**, which opens `~/.gem
 ```json
 {
   "mcpServers": {
-    "ibigent": { "serverUrl": "https://mcp.ibigent.com/mcp/<YOUR_KEY>" }
+    "ibigent": { "serverUrl": "https://mcp.ibigent.com/mcp" }
   }
 }
 ```

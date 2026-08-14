@@ -6,7 +6,7 @@ This guide takes you from zero to sending AI-generated HTML into your editor.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
-- [Step 1 — Issue your MCP key](#step-1--issue-your-mcp-key)
+- [Step 1 — Choose how to connect](#step-1--choose-how-to-connect)
 - [Step 2 — Connect your AI tool](#step-2--connect-your-ai-tool)
 - [Step 3 — Build with AI](#step-3--build-with-ai)
 
@@ -14,14 +14,19 @@ This guide takes you from zero to sending AI-generated HTML into your editor.
 - An active IBIGENT Studio subscription (https://www.ibigent.com/service/ibigent-studio.html).
 - An AI tool that supports MCP: Claude Code, Codex CLI, Cursor, or Antigravity.
 
-## Step 1 — Issue your MCP key
-Open **My Page > AI Integration > Connection Keys** (https://www.ibigent.com/mypage/mcp-keys.html) and click **Issue Key**. Copy the `ibg_…` value shown once and keep it private.
+## Step 1 — Choose how to connect
+There are two ways to connect. **No API key is needed.**
+
+| Method | Who it is for | Tools |
+|---|---|---|
+| **Method A — Connector** (Custom Connector) | If you do not use a terminal (recommended) | Claude, ChatGPT |
+| **Method B — Terminal** (MCP server configuration) | If you use developer tools | Claude Code, Cursor, Codex, Antigravity |
 
 ## Step 2 — Connect your AI tool
-Register the server URL below (replace `<YOUR_KEY>`). Pick your tool's guide for exact steps: [Claude Code](claude-code.md), [Codex CLI](codex.md), [Cursor](cursor.md), [Antigravity](antigravity.md).
+Register the server URL below. The IBIGENT sign-in page opens — sign in and click **Allow** once. Pick your tool's guide for exact steps: [Claude Code](claude-code.md), [Codex CLI](codex.md), [Cursor](cursor.md), [Antigravity](antigravity.md).
 
 ```
-https://mcp.ibigent.com/mcp/<YOUR_KEY>
+https://mcp.ibigent.com/mcp
 ```
 
 ## Step 3 — Build with AI
