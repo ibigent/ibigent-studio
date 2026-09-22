@@ -16,6 +16,19 @@ then send it to my IBIGENT Studio editor.
 ```
 
 The AI generates the HTML and, through the MCP connection, delivers it to your editor; you choose where it goes.
+
+## Edit by just asking — no code (IBIGENT AI Hosting)
+Keep the editor open and describe the change. The AI reads the page and edits only that part. No code is needed.
+
+```
+Change the main headline to "A warm place to grow"
+```
+
+```
+Make the selected text red
+```
+
+The change appears in the editor within 2–3 seconds with an **Undo** notice. Save in the editor when you are happy (your live site does not change until you save).
 For exact editor steps and the on-screen send flow, see the official docs: https://www.ibigent.com/docs/ibigent-studio/
 
 ---

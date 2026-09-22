@@ -30,6 +30,7 @@ IBIGENT Studio is a real-time web editor. You subscribe (no API keys to manage, 
 ## 2. Features
 - **Send AI-generated HTML into the editor.** Ask any MCP-connected AI tool to produce HTML and receive it in IBIGENT Studio.
 - **Place it exactly where you want.** Choose the insertion point in the editor; the HTML is applied in place.
+- **Edit by just asking — no code (IBIGENT AI Hosting).** Keep the editor open and the AI reads the page and changes only the part you describe. Changes appear in the editor right away with an **Undo** option, and go live only after you save.
 - **No coding, no API wiring.** A subscription and an IBIGENT sign-in are all you need.
 - **Uses the open Model Context Protocol**, so it works with the tools you already use.
 
@@ -67,7 +68,9 @@ Either way: **register the URL → sign in to IBIGENT → click Allow** once. No
    ```
 
 2. **Sign in and allow** — the IBIGENT sign-in page opens once; sign in and click **Allow**.
-3. **Ask the AI** to generate HTML and send it to your IBIGENT Studio editor, then pick where to insert it.
+3. **Ask the AI** with the editor open.
+   - **IBIGENT AI Hosting**: no code needed — say something like `Change the main headline` and the AI reads the page and edits just that part.
+   - **IBIGENT AI Builder Hosting**: include the 6-character code shown in the editor's "MCP & CLI" panel (e.g. `send it to IBIGENT ABC123`).
 
 Full walkthrough: [docs/en/getting-started.md](docs/en/getting-started.md).
 
