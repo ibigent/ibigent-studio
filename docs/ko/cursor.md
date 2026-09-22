@@ -12,7 +12,6 @@
 ## 준비물
 - IBIGENT Studio 구독(활성).
 > 키 발급은 더 이상 필요하지 않습니다. 주소를 등록하면 아이비전트 로그인 → [연결 허용] 한 번으로 연결됩니다.
-- URL의 위 주소 를 발급받은 키로 교체. **키는 비밀번호처럼 노출 금지.**
 
 ## 연결
 ### 설정 화면
@@ -34,6 +33,7 @@ https://mcp.ibigent.com/mcp
 ```
 
 ## 참고
+- Cursor 는 원격 서버의 OAuth 로그인을 지원합니다. 등록 후 아이비전트 로그인 창이 뜨면 **[연결 허용]** 을 누르세요.
 
 ---
 **공식 문서:** https://www.ibigent.com/docs/ibigent-studio/cursor.html · **키워드:** Cursor MCP, IBIGENT Studio, Model Context Protocol

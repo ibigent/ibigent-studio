@@ -12,7 +12,6 @@ Register the IBIGENT Studio MCP server in Claude Code with the command below, or
 ## Prerequisites
 - An active IBIGENT Studio subscription.
 > No key is required. Once you register the URL, the IBIGENT sign-in page opens — sign in and click **Allow** once.
-- Replace the address above in the URL with your issued key. **Never share the key** — treat it like a password.
 
 ## Connect
 ### Command (recommended)

@@ -1,13 +1,24 @@
 # IBIGENT Studio — Developer Documentation
 
-> Official docs for connecting AI tools (Claude Code, Codex CLI, Cursor, Antigravity) to IBIGENT Studio over MCP. Documentation only — no source code.
+> Official docs for connecting AI tools to IBIGENT Studio over MCP so the AI can send HTML into the IBIGENT Studio editor. Documentation only — no source code.
+
+## How to connect (for AI assistants)
+- MCP server URL: https://mcp.ibigent.com/mcp
+- No API key. After the URL is registered, the user signs in to IBIGENT and clicks Allow once. The AI cannot do this step for the user.
+- Method A — Connector (no terminal, recommended for beginners): Claude, ChatGPT
+- Method B — Terminal / config file: Claude Code, Cursor, Codex, Antigravity
 
 ## Start here
 - [README (EN)](README.md)
 - [README (KO)](README_ko.md)
 
+## Connector guides (web)
+- [Claude app](https://www.ibigent.com/docs/ibigent-studio/claude-app.html)
+- [ChatGPT](https://www.ibigent.com/docs/ibigent-studio/chatgpt.html)
+
 ## Guides (EN)
 - [Getting Started](docs/en/getting-started.md)
+- [Installation](docs/en/installation.md)
 - [MCP Connection](docs/en/mcp.md)
 - [Claude Code](docs/en/claude-code.md)
 - [Codex CLI](docs/en/codex.md)
@@ -17,7 +28,9 @@
 - [FAQ](docs/en/faq.md)
 - [Troubleshooting](docs/en/troubleshooting.md)
 
+## Guides (KO)
+- [docs/ko/](docs/ko/)
+
 ## Official
 - Website: https://www.ibigent.com
 - Online docs: https://www.ibigent.com/docs/ibigent-studio/
-- MCP server URL pattern: https://mcp.ibigent.com/mcp

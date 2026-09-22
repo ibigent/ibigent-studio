@@ -12,7 +12,6 @@ Register the IBIGENT Studio MCP server in Cursor from Settings, or by editing `m
 ## Prerequisites
 - An active IBIGENT Studio subscription.
 > No key is required. Once you register the URL, the IBIGENT sign-in page opens — sign in and click **Allow** once.
-- Replace the address above in the URL with your issued key. **Never share the key** — treat it like a password.
 
 ## Connect
 ### Settings UI
@@ -34,7 +33,7 @@ https://mcp.ibigent.com/mcp
 ```
 
 ## Notes
-- When you issue a key on My Page, a one-click Cursor deep link is also offered.
+- Cursor supports OAuth sign-in for remote servers. After registering, sign in to IBIGENT and click **Allow** when the window opens.
 
 ---
 **Official docs:** https://www.ibigent.com/docs/ibigent-studio/cursor.html · **Keywords:** Cursor MCP, IBIGENT Studio, Model Context Protocol

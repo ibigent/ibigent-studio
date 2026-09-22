@@ -14,14 +14,15 @@ Official developer documentation for **IBIGENT Studio**, an AI-powered website b
 ## Table of Contents
 - [1. What is IBIGENT Studio](#1-what-is-ibigent-studio)
 - [2. Features](#2-features)
-- [3. Supported AI tools](#3-supported-ai-tools)
-- [4. Quick Start](#4-quick-start)
-- [5. Documentation](#5-documentation)
-- [6. Official Website](#6-official-website)
-- [7. License](#7-license)
-- [8. Contributing](#8-contributing)
-- [9. Support](#9-support)
-- [10. Roadmap](#10-roadmap)
+- [3. Two ways to connect](#3-two-ways-to-connect)
+- [4. Supported AI tools](#4-supported-ai-tools)
+- [5. Quick Start](#5-quick-start)
+- [6. Documentation](#6-documentation)
+- [7. Official Website](#7-official-website)
+- [8. License](#8-license)
+- [9. Contributing](#9-contributing)
+- [10. Support](#10-support)
+- [11. Roadmap](#11-roadmap)
 
 ## 1. What is IBIGENT Studio
 IBIGENT Studio is a real-time web editor. You subscribe (no API keys to manage, nothing to install locally), connect your AI tool over MCP, and ask the AI to build HTML. The generated HTML is delivered to your editor, where you choose the exact position to insert it — and it appears immediately.
@@ -29,7 +30,7 @@ IBIGENT Studio is a real-time web editor. You subscribe (no API keys to manage, 
 ## 2. Features
 - **Send AI-generated HTML into the editor.** Ask any MCP-connected AI tool to produce HTML and receive it in IBIGENT Studio.
 - **Place it exactly where you want.** Choose the insertion point in the editor; the HTML is applied in place.
-- **No coding, no API wiring.** A subscription and an MCP key are all you need.
+- **No coding, no API wiring.** A subscription and an IBIGENT sign-in are all you need.
 - **Uses the open Model Context Protocol**, so it works with the tools you already use.
 
 ## 3. Two ways to connect
@@ -65,6 +66,7 @@ Either way: **register the URL → sign in to IBIGENT → click Allow** once. No
    claude mcp add --transport http ibigent https://mcp.ibigent.com/mcp
    ```
 
+2. **Sign in and allow** — the IBIGENT sign-in page opens once; sign in and click **Allow**.
 3. **Ask the AI** to generate HTML and send it to your IBIGENT Studio editor, then pick where to insert it.
 
 Full walkthrough: [docs/en/getting-started.md](docs/en/getting-started.md).
@@ -84,23 +86,23 @@ Full walkthrough: [docs/en/getting-started.md](docs/en/getting-started.md).
 
 Korean documentation: [docs/ko/](docs/ko/)
 
-## 6. Official Website
+## 7. Official Website
 - Website: https://www.ibigent.com
 - Product page: https://www.ibigent.com/service/ibigent-studio.html
 - Online docs: https://www.ibigent.com/docs/ibigent-studio/
 
-## 7. License
+## 8. License
 Documentation in this repository is licensed under **CC BY 4.0** (see [LICENSE](LICENSE)). No product source code is included.
 
-## 8. Contributing
+## 9. Contributing
 Documentation fixes are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). Please do not submit product source code or secrets.
 
-## 9. Support
+## 10. Support
 - Help center: https://www.ibigent.com/support/
 - Issues: use this repository's Issues for **documentation** problems only.
-- Security: see [SECURITY.md](SECURITY.md). **Never post your MCP key** in an issue or PR.
+- Security: see [SECURITY.md](SECURITY.md). **Never post your password or personal data** in an issue or PR.
 
-## 10. Roadmap
+## 11. Roadmap
 - [ ] Official VS Code MCP integration guide (in progress).
 - [ ] Additional IBIGENT products and their MCP guides.
 - [ ] More end-to-end examples.

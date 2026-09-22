@@ -3,7 +3,7 @@
 **[Docs home](../../README.md)**
 
 ### The tool doesn't list `ibigent`
-Re-check the URL and key, then verify: `claude mcp list` / `codex mcp list`. Restart the tool after editing config files.
+Re-check the URL, then verify: `claude mcp list` / `codex mcp list`. Restart the tool after editing config files.
 
 ### Codex: registration error
 Use `[mcp_servers.ibigent]` (underscore, plural) with only a `url` key. `transport` or `type` keys cause errors.

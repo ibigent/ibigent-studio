@@ -30,8 +30,8 @@ https://mcp.ibigent.com/mcp
 | VS Code | [vscode.md](vscode.md) (준비 중) |
 
 ## 보안
-- 키는 요청을 인증합니다 — **비밀번호처럼 취급.** 커밋·공유·이슈 붙여넣기 금지.
-- 키가 노출되면 연동 키 관리 페이지에서 재발급하세요.
+- 연결은 아이비전트 로그인(OAuth)으로 인증합니다. 복사·보관할 키가 없습니다.
+- 아이비전트 비밀번호·개인정보를 이슈에 올리지 마세요.
 
 ---
 **공식 문서:** https://www.ibigent.com/docs/ibigent-studio/mcp.html · **키워드:** MCP, Model Context Protocol, IBIGENT Studio, mcp.ibigent.com

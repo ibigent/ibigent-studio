@@ -6,16 +6,13 @@
 A hosted real-time web editor that receives AI-generated HTML over MCP and lets you place it in your page.
 
 ### Do I need to install anything?
-No. It is a hosted service. You need a subscription, an MCP key, and an MCP-capable AI tool.
+No. It is a hosted service. You need a subscription and an MCP-capable AI tool.
 
-### Where do I get my key?
+### Do I need an API key?
 > No key is required. Once you register the URL, the IBIGENT sign-in page opens — sign in and click **Allow** once.
 
-### Is my key safe to share?
-No. Treat it like a password. Never commit it or post it in an issue. Reissue it if exposed.
-
 ### Which AI tools are supported?
-Claude Code, Codex CLI, Cursor, and Antigravity today. VS Code guidance is coming soon.
+Claude and ChatGPT (connector), and Claude Code, Codex CLI, Cursor, and Antigravity (terminal). VS Code guidance is coming soon.
 
 ### Does it work with VS Code?
 An official guide is in progress — see [vscode.md](vscode.md).
@@ -24,4 +21,4 @@ An official guide is in progress — see [vscode.md](vscode.md).
 No. This repository is documentation only.
 
 ---
-**Keywords:** IBIGENT Studio FAQ, MCP key, supported AI tools
+**Keywords:** IBIGENT Studio FAQ, MCP sign-in, supported AI tools

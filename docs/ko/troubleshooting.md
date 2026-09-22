@@ -3,7 +3,7 @@
 **[문서 홈](../../README_ko.md)**
 
 ### 도구에 `ibigent` 이 안 보임
-URL·키 재확인 후 `claude mcp list` / `codex mcp list` 로 확인. 설정 파일 수정 후 도구 재시작.
+URL 재확인 후 `claude mcp list` / `codex mcp list` 로 확인. 설정 파일 수정 후 도구 재시작.
 
 ### Codex: 등록 오류
 `[mcp_servers.ibigent]` (밑줄·복수) + `url` 키만 사용. `transport`·`type` 키는 오류.

@@ -30,8 +30,8 @@ https://mcp.ibigent.com/mcp
 | VS Code | [vscode.md](vscode.md) (coming soon) |
 
 ## Security
-- Your key authenticates requests — **treat it like a password.** Do not commit it, share it, or paste it into issues.
-- If a key is exposed, revoke/reissue it on the Connection Keys page.
+- Connections are authenticated by signing in to IBIGENT (OAuth). There is no key to copy or store.
+- Never post your IBIGENT password or personal data in an issue.
 
 ---
 **Official docs:** https://www.ibigent.com/docs/ibigent-studio/mcp.html · **Keywords:** MCP, Model Context Protocol, IBIGENT Studio, mcp.ibigent.com
