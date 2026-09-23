@@ -69,8 +69,8 @@ Either way: **register the URL → sign in to IBIGENT → click Allow** once. No
 
 2. **Sign in and allow** — the IBIGENT sign-in page opens once; sign in and click **Allow**.
 3. **Ask the AI** with the editor open.
-   - **IBIGENT AI Hosting**: no code needed — say something like `Change the main headline` and the AI reads the page and edits just that part.
-   - **IBIGENT AI Builder Hosting**: include the 6-character code shown in the editor's "MCP & CLI" panel (e.g. `send it to IBIGENT ABC123`).
+   - **IBIGENT AI Hosting & Builder Hosting**: no code needed — say something like `Change the main headline` or `Add a Directions page under About` and the AI reads the page and edits just that part.
+   - Older builders that still show a 6-character code in the editor become code-free after the admin clicks [Get patch].
 
 Full walkthrough: [docs/en/getting-started.md](docs/en/getting-started.md).
 

@@ -33,15 +33,16 @@ https://mcp.ibigent.com/mcp
 ## 4. Available tools
 | Tool | For | What it does |
 |------|-----|--------------|
-| `list_open_editors` | IBIGENT AI Hosting | Finds the editors you have open — no code needed |
-| `read_editor_page` | IBIGENT AI Hosting | Reads the editor page (each part gets an ID) |
-| `edit_editor_part` | IBIGENT AI Hosting | Changes only the part with that ID — applied immediately, with Undo |
+| `list_open_editors` | Both | Finds the editors you have open — no code needed |
+| `read_editor_page` | Both | Reads the editor page (each part gets an ID; Builder also returns menus, submenus and footer details) |
+| `edit_editor_part` | Both | Changes only the part with that ID — applied immediately, with Undo |
 | `get_site_menu` / `set_site_menu` | IBIGENT AI Hosting | Reads and changes the top menu |
-| `send_html_to_editor` | Both | Sends an HTML block to the editor (Builder needs the 6-character code) |
-| `builder_command` | IBIGENT AI Builder Hosting | Changes menus, boards and logo (6-character code required) |
+| `send_html_to_editor` | Both | Sends an HTML block to the editor |
+| `builder_command` | IBIGENT AI Builder Hosting | Changes menus, submenus, boards, pages, logo and footer details, and saves blog posts as drafts — applied immediately, with Undo |
 
-- **IBIGENT AI Hosting** needs no code. If several editors are open, the AI asks which one.
-- In every case, **your live site does not change until you save.**
+- **IBIGENT AI Hosting and Builder Hosting** need no code. If several editors are open, the AI asks which one.
+- Older builders that still show a 6-character code in the editor become code-free after the admin clicks [Get patch]. Until then, put the code in front of your request.
+- Editor content goes live **when you save**. Builder menus, pages, logo and footer details go live **immediately** and can be undone with Undo.
 
 ## Security
 - Connections are authenticated by signing in to IBIGENT (OAuth). There is no key to copy or store.
