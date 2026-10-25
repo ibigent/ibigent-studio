@@ -8,6 +8,14 @@
 - Method A — Connector (no terminal, recommended for beginners): Claude, ChatGPT
 - Method B — Terminal / config file: Claude Code, Cursor, Codex, Antigravity
 
+## Tools
+- list_open_editors, read_editor_page, edit_editor_part, send_html_to_editor — both products
+- builder_command, make_new_homepage — IBIGENT AI Builder Hosting
+- get_site_menu, set_site_menu — IBIGENT AI Hosting
+- add_content_page — both products (a content-page editor must be open)
+- make_new_homepage and add_content_page take material as plain text, not HTML. The user reviews it in the editor window and clicks Next.
+- Full tool list: [docs/en/mcp.md](docs/en/mcp.md)
+
 ## Start here
 - [README (EN)](README.md)
 - [README (KO)](README_ko.md)

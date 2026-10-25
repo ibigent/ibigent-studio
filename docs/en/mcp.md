@@ -36,12 +36,15 @@ https://mcp.ibigent.com/mcp
 | `list_open_editors` | Both | Finds the editors you have open — no code needed |
 | `read_editor_page` | Both | Reads the editor page (each part gets an ID; Builder also returns menus, submenus and footer details) |
 | `edit_editor_part` | Both | Changes only the part with that ID — applied immediately, with Undo |
-| `get_site_menu` / `set_site_menu` | IBIGENT AI Hosting | Reads and changes the top menu |
+| `get_site_menu` / `set_site_menu` | IBIGENT AI Hosting | Reads and changes the top menu. On sites with sub-pages it also adds submenus and new pages |
 | `send_html_to_editor` | Both | Sends an HTML block to the editor |
 | `builder_command` | IBIGENT AI Builder Hosting | Changes menus, submenus, boards, pages, logo and footer details, and saves blog posts as drafts — applied immediately, with Undo |
+| `make_new_homepage` | IBIGENT AI Builder Hosting | Builds a whole new homepage from company material (text). The material fills the "New homepage" window; the user reviews and clicks [Next]. Existing boards and posts are kept |
+| `add_content_page` | Both | Builds one content page from material (text). The material fills the "Add content page" window; the user reviews and clicks [Next]. A content-page editor must be open (IBIGENT AI Hosting: sites with sub-pages) |
 
 - **IBIGENT AI Hosting and Builder Hosting** need no code. If several editors are open, the AI asks which one.
 - Older builders that still show a 6-character code in the editor become code-free after the admin clicks [Get patch]. Until then, put the code in front of your request.
+- `make_new_homepage` and `add_content_page` take material (plain Korean text), not HTML. IBIGENT creates the design and images; company name, phone, address and numbers come only from what the user provided.
 - Editor content goes live **when you save**. Builder menus, pages, logo and footer details go live **immediately** and can be undone with Undo.
 
 ## Security
