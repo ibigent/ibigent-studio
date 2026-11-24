@@ -33,6 +33,7 @@ IBIGENT Studio is a real-time web editor. You subscribe (no API keys to manage, 
 - **Edit by just asking — no code (IBIGENT AI Hosting & Builder Hosting).** Keep the editor open and the AI reads the page and changes only the part you describe. Changes appear in the editor right away with an **Undo** option, and go live only after you save.
 - **Build a new homepage or content page from your material.** Send company details prepared with your AI and they fill the editor's "New homepage" (Builder) or "Add content page" window. Review, click [Next], and IBIGENT builds it with its own design.
 - **Menus and submenus.** Builder: menus, submenus, boards, logo and footer details. IBIGENT AI Hosting: top menu and submenus (sites with sub-pages).
+- **Upload a site you built yourself (IBIGENT AI Hosting).** Zip the site folder your AI tool made (index.html required, up to 100MB) and upload it from the editor's "Site deploy" panel. You can keep editing it in the editor or by asking your AI; your site's scripts are kept when you save.
 - **No coding, no API wiring.** A subscription and an IBIGENT sign-in are all you need.
 - **Uses the open Model Context Protocol**, so it works with the tools you already use.
 

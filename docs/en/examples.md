@@ -48,6 +48,13 @@ The material fills the editor's "New homepage" (Builder) or "Add content page" w
 Add an Implants page under the Treatments menu
 ```
 
+## Upload a site you built yourself (IBIGENT AI Hosting)
+1. Ask your AI tool (Claude Code, Codex, Cursor, etc.) to build the site in a folder, then zip the whole folder. The zip must contain `index.html`, up to 100MB. Executable files such as PHP are left out for security.
+2. In the editor, drop the zip onto **Site deploy** (bottom right) and click **Upload and deploy**. Zip files cannot be sent through MCP — upload them yourself.
+3. When the progress bar finishes, the site is live at your address and shown in the editor. Deploying replaces the previous site. For boards or a database, use Builder Hosting.
+
+After uploading you can edit the site in the editor or by asking your AI, as above. Your site's scripts are kept when you save, and the uploaded original is kept in **Restore saved version** the first time you save. The editor does not run your site's scripts, so parts drawn by scripts (language switchers, sliders) may look different there — check them with **Live preview** next to the save button.
+
 For exact editor steps and the on-screen send flow, see the official docs: https://www.ibigent.com/docs/ibigent-studio/
 
 ---
